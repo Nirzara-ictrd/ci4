@@ -32,3 +32,11 @@ $routes->post('/items/store', 'ItemsController::store');    // Save new
 $routes->get('/items/edit/(:num)', 'ItemsController::edit/$1');    // Edit form
 $routes->post('/items/update/(:num)', 'ItemsController::update/$1'); // Update
 $routes->get('/items/delete/(:num)', 'ItemsController::delete/$1'); // Delete
+
+$routes->get('products', 'Products::index');
+$routes->get('products/create', 'Products::create');
+$routes->post('products/store', 'Products::store');
+$routes->get('products/edit/(:num)', 'Products::edit/$1');
+$routes->post('products/update/(:num)', 'Products::update/$1');
+$routes->get('products/delete/(:num)', 'Products::delete/$1');
+

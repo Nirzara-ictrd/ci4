@@ -82,7 +82,7 @@
 
                         <!-- Products Section -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/products">
                                 <i class="bi bi-grid"></i> Products
                             </a>
                         </li>
