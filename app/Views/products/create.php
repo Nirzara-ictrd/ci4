@@ -18,7 +18,7 @@
     <label class="form-label">Price</label>
     <input type="number" name="price" class="form-control" step="0.01" min="0" required>
 </div>
-
+ 
         <button class="btn btn-primary">Save</button>
         <a href="/products" class="btn btn-secondary">Cancel</a>
     </form>
