@@ -14,5 +14,5 @@ class ProductModel extends Model
         'description',
         'created_by',
         'price'
-    ];
+    ]; 
 }

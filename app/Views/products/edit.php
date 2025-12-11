@@ -10,7 +10,7 @@
             <input type="text" name="title" value="<?= esc($product['title']) ?>" class="form-control" required>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-3">  
             <label class="form-label">Description</label>
             <textarea name="description" class="form-control"><?= esc($product['description']) ?></textarea>
         </div>

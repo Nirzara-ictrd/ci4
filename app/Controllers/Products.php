@@ -15,7 +15,7 @@ class Products extends Controller
     ->select('products.*, users.name as added_by')
     ->join('users', 'users.id = products.created_by', 'left')
     ->findAll();
-
+ 
 
     return view('products/index', $data);
 }
